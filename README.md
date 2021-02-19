@@ -7,3 +7,5 @@ App to translate sentences using google-translate API
 
 ## How to
 Create a json file with sentences will be translated.
+
+run `python translator.py -f example.json -lg en`
