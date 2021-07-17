@@ -37,10 +37,11 @@ def translate(_dict, _lang):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--file', '-f', required=True, type=str, help='Name of json file with sentences.')
-parser.add_argument('--lang', '-lg', required=True, type=str, help='Language will be translated.')
+parser.add_argument('--file', '-f', required=True, type=str,
+                    help='Name of json file with sentences.')
+parser.add_argument('--lang', '-lg', required=True, type=str,
+                    help='Language will be translated.')
 args = parser.parse_args()
-
 
 if __name__ == '__main__':
     # Only sub level of dict is permitted
